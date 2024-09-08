@@ -3,6 +3,9 @@
 # Navigate to the application directory
 cd /var/www/nodejs-example
 
+# kill server if it exists
+pm2 kill
+
 # Start the application using PM2
 pm2 start app.js --name nodejs-example --watch
 
