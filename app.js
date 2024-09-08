@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     
     // Send the response body
-    res.end('This My web application');
+    res.end('This My web application assignment by Amol Mathur');
 });
 
 // Server listens on port 3000
