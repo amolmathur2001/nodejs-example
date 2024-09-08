@@ -3,6 +3,13 @@
 # Navigate to the application directory
 cd /var/www/nodejs-example
 
+# Install nodejs
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Install npm
+sudo apt install npm
+
 # Install application dependencies
 npm install
 
